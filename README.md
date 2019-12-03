@@ -11,5 +11,5 @@ Bulma is constantly in development! Try it out now:
 ### NPM
 
 ```sh
-npm install bulma
+npm i bulma-less-lib
 ```
