@@ -1,0 +1,44 @@
+{
+  "name": "bulma-less-lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smstudio2008/bulma-less.git"
+  },
+  "author": "SSM DIGITAL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smstudio2008/bulma-less/issues"
+  },
+  "homepage": "https://github.com/smstudio2008/bulma-less#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "css-loader": "^3.2.1",
+    "extract-loader": "^3.1.0",
+    "file-loader": "^5.0.2",
+    "less-loader": "^5.0.0",
+    "mini-css-extract-plugin": "^0.4.5",
+    "node-sass": "^4.9.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "less": "^2.3.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
